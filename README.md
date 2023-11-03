@@ -1,1 +1,1 @@
-# so-yummy
+Frontend of So Yummy application.
