@@ -34,11 +34,25 @@ const config: Config = {
                     light: '#ffffff',
                     dark: '#ffffff',
                 },
-                greeme: {
+                asparagus: {
                     DEFAULT: '#8BAA36',
                     light: '#8BAA36',
                     dark: '#8BAA36',
                 },
+                fern: {
+                    DEFAULT: '#EBF3D4',
+                    light: '#EBF3D4',
+                    dark: '#EBF3D4',
+                },
+                charcoal: {
+                    DEFAULT: '#22252A',
+                    light: '#22252A',
+                    dark: '#22252A',
+                },
+
+            },
+            fontFamily: {
+                poppins: ['Poppins', 'sans-serif'],
             }
         },
     },
