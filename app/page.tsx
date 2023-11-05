@@ -1,5 +1,9 @@
-export default function Home(){
+import Header from "@/app/components/header";
+
+export default function Home() {
     return (
-        <div>so yummy</div>
+        <>
+            <Header/>
+        </>
     )
 }
