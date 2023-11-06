@@ -49,11 +49,34 @@ const config: Config = {
                     light: '#22252A',
                     dark: '#22252A',
                 },
+                darkGray: {
+                    DEFAULT: '#23262A',
+                    light: '#23262A',
+                    dark: '#23262A',
+                },
 
             },
             fontFamily: {
                 poppins: ['Poppins', 'sans-serif'],
-            }
+            },
+            rotate: {
+                270: '270deg',
+                65: '65deg',
+                200: '200deg',
+            },
+            spacing: {
+                128: '32rem',
+                144: '36rem',
+            },
+            blur: {
+                xs: '2px',
+            },
+            backgroundImage: {
+                'salad-bowl': 'url("/salad.png")',
+            },
+            fontSize: {
+                xss: '0.625rem',
+            },
         },
     },
     plugins: [],
