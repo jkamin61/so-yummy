@@ -77,7 +77,7 @@ const Header: React.FC = () => {
                         <ul className="flex flex-col gap-8 p-14 pb-0 justify-center items-center">
                             {navigation.map((item, index) => (
                                 <li key={index}>
-                                    <Link href={item.href} className="text-xl">{item.name}</Link>
+                                    <Link href={item.href} className="text-xl hover:text-asparagus motion-safe:hover:text-asparagus">{item.name}</Link>
                                 </li>
                             ))}
                         </ul>
@@ -91,12 +91,12 @@ const Header: React.FC = () => {
                                       strokeLinecap="round"
                                       strokeLinejoin="round"/>
                             </svg>
-                            <button className="text-xl">Search</button>
+                            <button className="text-xl hover:text-asparagus motion-safe:hover:text-asparagus">Search</button>
                         </div>
                     </nav>
                     <div className="flex justify-between w-full p-2 items-end">
                         <Switch {...label}/>
-                        <Image src={spinach} alt="spinachi" className="w-80 h-80 rotate-65 relative left-12 top-10 blur-xs"/>
+                        {/*<Image src={spinach} alt="spinachi" className="w-80 h-80 rotate-65 relative left-12 top-10 blur-xs"/>*/}
                     </div>
                 </div>}
         </header>
