@@ -62,7 +62,7 @@ const config: Config = {
             rotate: {
                 270: '270deg',
                 65: '65deg',
-                200: '200deg',
+                220: '220deg',
             },
             spacing: {
                 128: '32rem',
