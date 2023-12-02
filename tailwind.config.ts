@@ -73,6 +73,7 @@ const config: Config = {
             },
             backgroundImage: {
                 'salad-bowl': 'url("/salad.png")',
+                'spinach-bg': 'url("/bg-layer.jpg")',
             },
             fontSize: {
                 xss: '0.625rem',
