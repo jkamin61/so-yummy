@@ -3,8 +3,9 @@ import Link from "next/link";
 
 const About: React.FC = () => {
     return (
-        <section className="w-full py-16 z-10 bg-spinach-bg bg-cover bg-no-repeat">
-            <div className="relative">
+        <section
+            className="w-full py-16 z-10 bg-spinach-bg bg-cover bg-no-repeat">
+            <div>
                 <div className="flex flex-col justify-center items-center gap-3"><h1
                     className="text-center text-5xl font-light text-charcoal "><span
                     className="text-asparagus">So</span>Yummy</h1>
