@@ -94,7 +94,7 @@ function Footer(): JSX.Element {
             <div
                 className="flex justify-center items-center w-full h-20 bg-white gap-4">
                 <p className="text-center text-xss text-zinc-500">© 2023 All Rights Reserved.</p>
-                <p className="text-center text-xss text-zinc-400">Terms of Service</p>
+                <Link className="text-center text-xss text-zinc-400" href="/">Terms of Service</Link>
             </div>
         </div>
     );

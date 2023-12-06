@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const About: React.FC = () => {
+function About(): JSX.Element {
     return (
         <section
             className="w-full py-16 z-10 bg-spinach-bg bg-cover bg-no-repeat">
@@ -35,6 +35,6 @@ const About: React.FC = () => {
             </div>
         </section>
     );
-};
+}
 
 export default About;

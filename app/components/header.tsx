@@ -10,7 +10,7 @@ import {navigation} from "@/app/components/partials";
 
 const label = {inputProps: {'aria-label': 'Switch demo'}};
 
-const Header: React.FC = () => {
+function Header(): JSX.Element {
     const [loggedIn, setLoggedIn] = React.useState<boolean>(false)
     const [mobileMenu, setMobileMenu] = React.useState<boolean>(false)
     return (
