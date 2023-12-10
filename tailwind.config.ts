@@ -29,6 +29,9 @@ const config: Config = {
                     light: '#333333',
                     dark: '#000000',
                 },
+                whitish: {
+                    DEFAULT: '#FAFAFA',
+                },
                 white: {
                     DEFAULT: '#ffffff',
                     light: '#ffffff',
@@ -54,10 +57,15 @@ const config: Config = {
                     light: '#23262A',
                     dark: '#23262A',
                 },
-
+                shadowNavy: {
+                    DEFAULT: '#1E1F28',
+                    light: '#2A2C36',
+                    dark: '#1E1F28',
+                }
             },
             fontFamily: {
                 poppins: ['Poppins', 'sans-serif'],
+                'poppins-semibold': ['Poppins Semibold', 'sans-serif'],
             },
             rotate: {
                 270: '270deg',
@@ -74,6 +82,10 @@ const config: Config = {
             backgroundImage: {
                 'salad-bowl': 'url("/salad.png")',
                 'spinach-bg': 'url("/bg-layer.jpg")',
+                'ronise-daluz': 'url("/ronise-daluz.png")',
+                'user': 'url("/user-01.svg")',
+                'mail-01': 'url("/mail-01.svg")',
+                'lock-02': 'url("/lock-02.svg")',
             },
             fontSize: {
                 xss: '0.625rem',
